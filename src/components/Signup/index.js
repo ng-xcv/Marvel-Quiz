@@ -17,7 +17,7 @@ const Signup =  () => {
         setLoginData({...loginData, [e.target.id] : e.target.value })
     }
     
-    //Destructurin
+    //Destructuring
     const {pseudo, email, password, confirmPassword} = loginData
 
     return (
